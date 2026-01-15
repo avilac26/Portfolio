@@ -8,8 +8,6 @@ function About({}){
             <div >
                 <div>
                     <AboutProjectsContainer 
-                    LinkedinIcon={LinkedinIcon} 
-                    GithubIcon={GithubIcon}
                     title={"I’m Emanuel, a Front-End Developer based in Costa Rica, where I build and experiment with modern web experiences."}
                     description={
                         <>
