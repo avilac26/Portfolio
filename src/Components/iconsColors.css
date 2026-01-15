@@ -1,0 +1,12 @@
+.html { color: #E34F26; }
+.css { color: #1572B6; }
+.bootstrap { color: #7952B3; }
+.tailwind { color: #06B6D4; }
+.javascript { color: #F7DF1E; }
+.typescript { color: #3178C6; }
+.angular { color: #DD0031; }
+.react { color: #61DAFB; }
+
+.icon{
+    font-size: 2rem;
+}

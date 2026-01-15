@@ -1,0 +1,55 @@
+.AboutProjectsMainContainer{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.AboutProjectsContainer{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid rgb(247, 244, 244);
+    border-radius: 35px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    box-sizing: border-box;
+    padding: 40px;
+    padding-bottom: 0px;
+}
+
+.AboutProjectsContainer:hover{
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+.AboutContainerDescription{
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.AboutProjectsContainer h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding-bottom: 10px;
+    color: rgb(102, 102, 102);
+}
+
+.AboutProjectsContainer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 102, 102);
+}
+
+@media (max-width:900px){
+    .AboutProjectsContainer{
+        flex-direction: column;
+        
+    }
+    .AboutContainerDescription{
+    width: 100%;
+    }
+
+    .AboutProjectsContainer h2{
+        font-size: 1.7em;
+    }
+}

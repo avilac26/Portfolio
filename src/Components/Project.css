@@ -1,0 +1,35 @@
+.ProjectContainer{
+    max-width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.ProjectContainer h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: rgb(73, 73, 73);
+}
+
+.ProjectContainer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: rgb(102, 102, 102);
+}
+
+.ProjectContainer a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.ProjectContainer a:hover{
+    color: rgb(69, 184, 159);
+}
+
+.skillItem svg {
+    font-size: 2rem;
+}
+

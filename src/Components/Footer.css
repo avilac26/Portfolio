@@ -1,0 +1,51 @@
+.Footer{
+   background-color: rgb(102, 102, 102);
+}
+
+.FooterContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.FooterOptionsContainer{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: left;
+    padding-left: 59px;
+    margin-right: 75px;
+}
+
+.FooterAuthorInfoContainer{
+    width: 100%;
+}
+
+.FooterAuthorInfoContainer p{
+    text-align: end;
+    margin-right: 75px;
+}
+
+.FooterContainer .navOption{
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.FooterContainer .navOption a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.FooterContainer .navOption a:hover {
+    color: rgb(69, 184, 159);
+}
+
+.FooterAuthorInfoContainer p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

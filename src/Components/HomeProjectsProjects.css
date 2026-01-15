@@ -1,0 +1,68 @@
+.HomeProjects{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.HomeProjectsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.HomeProjectContainer{
+    max-width: 275px;
+    border: 1px solid rgb(247, 244, 244);
+    border-radius: 40px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    margin: 10px;
+}
+
+.HomeProjectContainer:hover{
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+.HomeProjectContainerOption{
+    max-width: 275px;
+    border: 1px solid rgb(247, 244, 244);
+    border-radius: 40px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.HomeProjectContainerOption:hover{
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+.HomeProjects .HomeProjectOption {
+    padding: 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    list-style: none;
+}
+
+.HomeProjects .HomeProjectOption a{
+    color: rgb(102, 102, 102);
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.HomeProjects .HomeProjectOption a:hover{
+    color: rgb(69, 184, 159);
+}
+
+
+
+@media(max-width: 900px){
+    .HomeProjectsContainer{
+    width: 100%;
+    }
+}
