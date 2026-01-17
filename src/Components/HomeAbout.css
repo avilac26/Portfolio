@@ -83,4 +83,17 @@
         align-items: center;
         text-align: center;
     }
+
+    .HomeAboutInformationContainer h1{
+        font-size: 1.7em;
+    }
+
+    .HomeAboutInformationContainer p{
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .HomeAboutImg{
+        width: 200px;
+    }
 }

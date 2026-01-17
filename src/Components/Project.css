@@ -33,3 +33,12 @@
     font-size: 2rem;
 }
 
+
+@media (max-width:900px){
+    .ProjectContainer h2{
+        font-size: 1.2em;
+    }
+    .ProjectContainer p{
+        font-size: 1em;
+    }
+}

@@ -38,18 +38,30 @@
 .AboutProjectsContainer p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(102, 102, 102);
+    text-align: left;
 }
+
+
 
 @media (max-width:900px){
     .AboutProjectsContainer{
         flex-direction: column;
+        width: 100%;
+        padding: 30px;
         
     }
     .AboutContainerDescription{
-    width: 100%;
+        width: 100%;
+        margin-bottom: 25px;
     }
 
     .AboutProjectsContainer h2{
-        font-size: 1.7em;
+        font-size: 1.5em;
+        text-align: justify;
+    }
+
+    .AboutProjectsContainer p{
+        font-size: 0.9em;
+        text-align: justify;
     }
 }

@@ -1,6 +1,7 @@
 .AboutContainerSocials{
-    margin: 85px auto;
     padding-left: 20px;
+    align-items: center;
+    margin: 100px auto;
 }
 
 .AboutContainerSocialsList {
@@ -30,13 +31,25 @@
     font-weight: bold;
 }
 
+.liContainer span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 @media (max-width:900px){
     .AboutContainerSocials{
-    margin: 25px auto;
-    padding-left: 0px;
-    text-align: center;
+        margin: 0;
+        margin-bottom: 35px;
+        padding-left: 0px;
+        text-align: left;
     }
     .AboutContainerSocials a{
+        font-size: 0.7em;
         margin-bottom: 5px;
+    }
+    .liContainer{
+        justify-content: left;
+    }
+    .liContainer span{
+        font-size: 0.8em;
     }
 }
