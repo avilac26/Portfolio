@@ -53,3 +53,9 @@
         font-size: 0.8em;
     }
 }
+
+@media (max-width:344px){
+    .liContainer span{
+        font-size: 0.7em;
+    }
+}
