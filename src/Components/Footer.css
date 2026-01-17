@@ -6,6 +6,7 @@
     margin-top: 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-bottom: 50px;
 }
 
@@ -14,17 +15,11 @@
     flex-direction: row;
     list-style-type: none;
     justify-content: left;
-    padding-left: 59px;
-    margin-right: 75px;
+    margin-left: 60px;
 }
 
 .FooterAuthorInfoContainer{
-    width: 100%;
-}
-
-.FooterAuthorInfoContainer p{
-    text-align: end;
-    margin-right: 75px;
+    width: 70%;
 }
 
 .FooterContainer .navOption{
@@ -46,6 +41,34 @@
 }
 
 .FooterAuthorInfoContainer p{
+    text-align: end;
+    margin-right: 60px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:907px){ 
+
+    .FooterOptionsContainer1{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .FooterOptionsContainer{
+    margin: auto;
+    }
+
+    .FooterContainer .navOption{
+        margin-left: 20px;
+    }
+
+    .FooterAuthorInfoContainer{
+        margin: auto;
+        width: 100%;
+    }
+    .FooterAuthorInfoContainer p{
+        text-align: center;
+        margin-right: 0px;
+    }
+
 }
